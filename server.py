@@ -1,5 +1,5 @@
 from instagram import application
 
-print('lamborghini urus')
+print('koka durvis')
 
 application.run()
