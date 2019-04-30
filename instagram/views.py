@@ -40,7 +40,7 @@ class UserRegistrationView(MethodView):
         repeat_password = flask.request.form['repeat_password']
 
         if repeat_password != password:
-            return 'passwords didn"t match'
+            return "passwords didn't match"
 
         hashed_password = generate_password_hash(password)
 
